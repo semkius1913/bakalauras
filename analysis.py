@@ -197,11 +197,7 @@ for i in range(1,10):
     for j in range(100):
         fulllaikas.append(b)
         c= a[j][0]/b[j][0]*100
-        if c>100:
-            print(f'i{i} j{j} {a[j][0]} {b[j][0]}')
         d = a[j][1] / b[j][1] * 100
-        if d > 100:
-            print(f'aaaa i{i} j{j} {a[j][1]} {b[j][1]}')
         evotikslumaihistograma.append(c)
         evolaiko.append(d)
     if i%3==0:
