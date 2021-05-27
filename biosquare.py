@@ -305,6 +305,6 @@ for seq in range(1,101):
         myfile2.write(str(tm) + " " + str(int(maximum[0][0] / 92 * 100)) + "\n")
     '''
     tm = time.time() - start_time
-    pth2 = '/content/drive/MyDrive/Colab Notebooks/data/results/evo0{seq}.txt'
+    pth2 = '/content/drive/MyDrive/Colab Notebooks/data/results/evo01.txt'
     with open(pth2, "a+") as myfile2:
       myfile2.write(f'{maximum[0][0]} {tm}\n')
