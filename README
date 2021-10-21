@@ -1,4 +1,9 @@
 This is my bachelor degree thesis "Biogeography based optimization methods" (written in Lithuanian).
 
-Thesis is about analysing how well biogeograpical optimization method performs on simple task, compared to full count method.
-This metod can be modified and combined with other optimization methods.
+This thesis includes biogeography – based optimization method analysis which is one of the
+evolutionary optimization methods. Various evolutionary methods are reviewed as well as biogeographical
+and full re-sampling algorithms are described. Research includes the analysis of benefits
+of biogeography – based optimization method for solving a specific problem. The problem is defined:
+to find the largest colored square in each color-shaded area with each pixel of the same color
+in 64x64 pixel image. The results shows that the method of the study can speed up the search and
+give results faster than the full re-sampling algorithm.
